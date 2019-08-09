@@ -1,0 +1,28 @@
+{
+  "author": "lakca",
+  "bugs": {
+    "url": "https://github.com/lakca/utils/issues"
+  },
+  "description": "utilities.",
+  "devDependencies": {
+    "@lakca/eslint-config-lakca": "git+https://github.com/lakca/eslintrc.git#v1.0.0",
+    "eslint": "^6.1.0"
+  },
+  "files": [
+    "lib",
+    "internal"
+  ],
+  "homepage": "https://github.com/lakca/utils#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "name": "@lakca/utils",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lakca/utils.git"
+  },
+  "scripts": {
+    "test": "test",
+    "eslint": "eslint lib internal"
+  },
+  "version": "1.0.0"
+}
